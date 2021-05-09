@@ -1,2 +1,7 @@
  .teambox:hover{box-shadow: 0px 4px 80px rgba(63, 16, 16, 0.1);border-radius: 12px;}
 .circleimage{clip-path: circle();height: 120px;}
+/* .spinner-border{
+    display: flex;
+    -ms-flex-item-align: center;
+    justify-content: center;
+    align-items: center;} */

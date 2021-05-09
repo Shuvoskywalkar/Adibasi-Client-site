@@ -16,10 +16,20 @@ const Team = () => {
         Aos.init({duration:2000})
     },[])
     return (
-        <div className="px-5 py-5 justify-content-center align-items-center">
-           <h1 className="pt-5 text-center">Our <span className="text-info ">  Directory</span>   Panel</h1> 
-           <div className="row pt-5 px-md-5">
-               {team.map(rslt=>
+        <div id="team" className=" py-5 ">
+           <h1 className="pt-5 text-center ">Our <span className="text-info ">Directory</span> Panell</h1> 
+           {team.length==0 && 
+                <div class="d-flex justify-content-center  pt-5">
+             <div class="spinner-grow text-info " style={{width:" 9rem", height:" 9rem"}} role="status">
+                 <img src="" alt="" srcset=""/>
+               <span class="sr-only">Loading...</span>
+             </div>
+           </div> }
+         <div className="px-5 ">  <div className="row pt-5 px-md-5 ">
+
+
+           {team.length!==0 && 
+               team.map(rslt=>
  <div data-aos="fade-up" className="col-md-4 teambox text-center py-3 align-items-center"> 
 <img className="text-center   circleimage img-fluid"  
                           src={`data:image/png;base64,${rslt.Image.img}`}  />
@@ -28,7 +38,7 @@ const Team = () => {
                        <p className="text-secondary">
                            <span className="text-dark font-weight-bold">Phone:</span> {rslt.Phone},<span className="font-weight-bold text-dark">University:</span> {rslt.University},<span className="font-weight-bold text-dark">Address:</span> {rslt.Bagaan}</p>
                          
- </div>)} 
+ </div>) }</div>
            </div>
         </div>
     );

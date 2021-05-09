@@ -3,13 +3,13 @@ import '../Hero/Hero.css'
 import Main from '../main/main';
 const Hero = () => {
     return (
-      <div  className="pb-5">
+      <div id="home" className="pb-5">
         <div className="heropage min-h-screen px-5">
             <nav class="navbar navbar-expand-lg navbar-light   ">
   <div class="container-fluid ">
     <a class="navbar-brand  " href="#">
 <img style={{height:"75px"}} className="logo 
- img-fluid rounded-circle" src="https://scontent.fdac24-1.fna.fbcdn.net/v/t1.15752-9/142662653_4041096052589107_6505610008618726005_n.jpg?_nc_cat=102&ccb=2&_nc_sid=ae9488&_nc_ohc=zfTeLYbJ9soAX_ZvwIf&_nc_ht=scontent.fdac24-1.fna&oh=e6218a45da65981ad80059bbea771528&oe=60330107" alt="logo" />
+ img-fluid rounded-circle" src="https://scontent.fdac24-1.fna.fbcdn.net/v/t1.15752-9/142662653_4041096052589107_6505610008618726005_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=ae9488&_nc_ohc=ImJ7R84DYQwAX9O_8GV&_nc_ht=scontent.fdac24-1.fna&oh=6d87d0973abdfc61147e81e46c3bfe19&oe=60A9A807" alt="logo" />
     </a>
     <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-bs-target="#navbarNav" aria-controls="#navbarNav" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon  "></span>
@@ -17,19 +17,19 @@ const Hero = () => {
     <div class="collapse navbar-collapse " id="navbarNav">
       <ul class="navbar-nav ml-auto text-light font-weight-bold">
         <li class="nav-item px-4">
-          <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+          <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
         </li>
         <li class="nav-item px-4">
-          <a class="nav-link text-warning" href="#" >Helped By</a>
+          <a class="nav-link text-warning" href="#brands" >Helped By</a>
         </li>
         <li class="nav-item px-4">
-          <a class="nav-link text-light" href="#">About</a>
+          <a class="nav-link text-light" href="#About">About</a>
         </li>
         <li class="nav-item px-4">
-          <a class="nav-link text-warning" href="#" >Team</a>
+          <a class="nav-link text-warning" href="#team" >Team</a>
         </li>
         <li class="nav-item pl-4">
-          <a class="nav-link disabled text-primary" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+          <a class="nav-link disabled text-primary" href="#Footer" tabindex="-1" aria-disabled="true">Contact Us</a>
         </li>
       </ul>
     </div>

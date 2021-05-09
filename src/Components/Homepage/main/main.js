@@ -4,8 +4,8 @@ import {  raw} from "../main/raw.png";
 const Main = () => {
     return (
         <div className="row   justify-content-center  justify-content-evenly">
-            <div className="col-md-6 pt-5 mt-5">
-                <div>    <h1 style={{fontSize:"43px",color:"whitesmoke",fontFamily:"potta one,cursive"}}>moulvibazar <b className="text-success" style={{color:"#71922E"}}>cha</b>  <br/> jonogoshti adibasi front </h1>
+            <div className="col-md-6 col-sm-5 pt-5 mt-5">
+                <div>    <h1 style={{fontSize:"36px",color:"whitesmoke",fontFamily:"potta one,cursive"}}>moulvibazar <b className="text-success" style={{color:"#71922E"}}>cha</b>  <br/> jonogoshti adibasi front </h1>
     <br/>
     <br/>
    
@@ -47,9 +47,9 @@ const Main = () => {
 </div>
 
   </div>
-  <div className="col-md-6 " >
+  <div className="col-md-6 col-sm-7 px-0 align-items-right" >
       
-<img  className="img-fluid w-100" src="https://i.imgur.com/kGgkRNF.png" alt="" />
+<img  className="img-fluid  w-100 " src="https://i.imgur.com/2OyTYE8.png" alt="under maintainance" />
 
   </div> 
   </div>
